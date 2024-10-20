@@ -72,11 +72,14 @@ class _BasketAppScreenState extends State<BasketAppScreen> {
                     )
                   ],
                 ),
-                Divider(
-                  color: Colors.black, 
-                  thickness: 2, 
-                //   indent: 30, 
-                //   endIndent: 15, 
+                SizedBox(
+                  height: 500,
+                  child: VerticalDivider(
+                    color: Colors.black, 
+                    thickness: 1, 
+                    // indent: 5, 
+                    // endIndent: 5, 
+                  ),
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
